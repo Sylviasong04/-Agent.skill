@@ -1,6 +1,6 @@
 interface:
   display_name: "逐页讲解课件"
-  short_description: "阅读 PPT 或 PDF 课件，按原页顺序生成简明易懂的中文讲解"
-  default_prompt: "使用 $lecture-review 阅读这份课件，并按原页顺序用中文逐页给我讲解。"
+  short_description: "阅读 PPT 或 PDF，生成逐页中文讲解并直接接入本地网页知识库"
+  default_prompt: "使用 $lecture-review 阅读这份课件，逐页用中文讲解，并将完整 Markdown 接入现有知页知识库。"
 policy:
   allow_implicit_invocation: true
